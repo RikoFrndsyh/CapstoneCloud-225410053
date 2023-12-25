@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  /* Mobile-first responsive design */
+  header {
+    background-color: #094067; /* Background color added for visibility */
+    height: 70px;
+  }
+  
+  header h1 {
+    display: inline-block;
+    padding: 16px 24px;
+    text-transform: uppercase;
+    color: #ffffff; /* Text color for better visibility */
+  }
+  
+  header ul {
+    float: right;
+  }
+  
+  header ul li {
+    padding: 24px;
+    display: inline-block;
+  }
+  
+  header ul li a {
+    transition: 0.3s;
+    color: white; /* Text color for better visibility */
+    text-decoration: none; /* Text decoration removed */
+  }
+  
+  header ul li a:hover {
+    background-color: #ffffff;
+    /* You can change the background color to a different shade for better visibility */
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px; /* Added padding for better spacing on small screens */
+  }
+  
+  .banner {
+    background-color: #3da9fc;
+    padding: 50px; /* Reduced padding for smaller screens */
+    text-align: center; /* Center-align content */
+  }
+  
+  .banner img {
+    width: 80px; /* Reduced image size for smaller screens */
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .banner h2,
+  .banner p {
+    color: #d8eefe;
+  }
+  
+  .banner h2 {
+    margin-bottom: 10px;
+  }
+  
+  .banner-left {
+    border-radius: 62px;
+    background: #3da9fc;
+    box-shadow:  35px 35px 70px #828282,
+             -35px -35px 70px #ffffff;
+  }
+  
+  section {
+    padding: 20px 0;
+  }
+  
+  section h3 {
+    padding-bottom: 10px; /* Reduced padding for smaller screens */
+    text-align: center;
+    position: relative;
+  }
+  
+  section h3::before {
+    width: 80px; /* Reduced width for smaller screens */
+    left: calc(50% - 40px);
+  }
+  
+  section h3::after {
+    width: 20px; /* Reduced width for smaller screens */
+    left: calc(50% - 10px);
+  }
+  
+  #about p {
+    text-align: justify;
+    text-indent: 15px; /* Reduced text-indent for smaller screens */
+    line-height: 20px; /* Reduced line height for smaller screens */
+    margin-bottom: 10px; /* Reduced margin for smaller screens */
+  }
+  
+  .col-3 {
+    width: 100%; /* Full width on small screens */
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px 10px; /* Reduced padding for smaller screens */
+  }
+  
+  .col-3 h4 {
+    padding-bottom: 5px; /* Reduced padding for smaller screens */
+    margin-bottom: 10px; /* Reduced margin for smaller screens */
+  }
